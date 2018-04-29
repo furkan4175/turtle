@@ -1,0 +1,51 @@
+import turtle
+
+kalem = turtle.Pen()
+kalem.pensize(2)
+kalem.color("red","red")
+kalem.speed(0)
+
+kalem.penup()
+kalem.setposition(-350, -200)
+kalem.pendown()
+kalem.begin_fill()
+kalem.forward(700)
+kalem.left(90)
+kalem.forward(400)
+kalem.left(90)
+kalem.forward(700)
+kalem.left(90)
+kalem.forward(400)
+kalem.left(90)
+kalem.end_fill()
+
+kalem.penup()
+kalem.color("white","white")
+kalem.setposition(-100, -150)
+kalem.pendown()
+kalem.begin_fill()
+kalem.circle(150)
+kalem.end_fill()
+
+kalem.penup()
+kalem.color("red","red")
+kalem.setposition(-50, -130)
+kalem.pendown()
+kalem.begin_fill()
+kalem.circle(130)
+kalem.end_fill()
+
+kalem.penup()
+kalem.setposition(0, 0)
+kalem.color("white","white")
+kalem.pendown()
+kalem.begin_fill()
+for yildiz in range(10):
+    kalem.left(25)
+    kalem.forward(125)
+    kalem.right(169)
+kalem.end_fill()
+
+kalem.penup()
+kalem.setposition(51515,51515515)
+
